@@ -1,0 +1,10 @@
+export { PublicKey, Field, Bool, AuthRequired, AuthorizationKind, UInt64, UInt32, Sign, TokenId, };
+declare type Field = string;
+declare type Bool = boolean;
+declare type UInt64 = string;
+declare type UInt32 = string;
+declare type PublicKey = string;
+declare type Sign = 'Positive' | 'Negative';
+declare type AuthRequired = 'Signature' | 'Proof' | 'Either' | 'None' | 'Impossible';
+declare type AuthorizationKind = 'Signature' | 'Proof' | 'None_given';
+declare type TokenId = Field;

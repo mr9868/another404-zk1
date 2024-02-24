@@ -1,0 +1,11 @@
+export let Field: any;
+export let Bool: any;
+export let Circuit: any;
+export let Poseidon: any;
+export let Group: any;
+export let Scalar: any;
+export let Ledger: any;
+import { shutdown } from "./snarky/wrapper.js";
+export let isReady: Promise<boolean>;
+export let Pickles: any;
+export { shutdown };
